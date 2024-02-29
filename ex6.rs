@@ -44,7 +44,7 @@ fn main() {
         }
     }
     else {
-        let mut computer_with_max : Computer = new(String::from(""), String::from(""), 0);
+        let mut computer_with_max : Computer = new(String::from(""), String::from(""), -1);
         for computer in computers {
             if computer.memory_size > computer_with_max.memory_size {
                 computer_with_max = computer;
